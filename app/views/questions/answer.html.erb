@@ -1,0 +1,16 @@
+<h1>Stupid Coaching</h1>
+<div>
+  <blockquote>
+    <%= @question %>
+    <footer>-You</footer>
+  </blockquote>
+</div>
+<div>
+  <blockquote>
+    <b><%= @response %></b>
+    <footer>-Your Coach</footer>
+  </blockquote>
+</div>
+<div>
+  <%= link_to "Ask another question.", "/ask" %>
+</div>
